@@ -2,6 +2,13 @@
 
 Clone do aplicativo Nubank desenvolvido como trabalho da disciplina de React Native no curso **Serratec**.
 
+Referencias:
+[text](inspiracao)
+
+<div align="center">
+  <img src="inspiracao/tela03.gif" alt="alt text" />
+</div>
+
 ## Fluxo das Telas
 
 ```
