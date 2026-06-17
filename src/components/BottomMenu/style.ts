@@ -24,6 +24,6 @@ export const styles = StyleSheet.create({
     },
 
     buttonPressed: {
-        backgroundColor: COLORS.quinary,
+        backgroundColor: `${COLORS.background}20`,
     },
 })
