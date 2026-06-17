@@ -31,10 +31,22 @@ export const actions = [
     iconName: 'cash-plus',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Recarga',
     icon: Icon3,
     iconName: 'cellphone',
+  },
+  {
+    id: 6,
+    title: 'Pagar fatura',
+    icon: Icon3,
+    iconName: 'credit-card-outline',
+  },
+  {
+    id: 7,
+    title: 'Caixinhas',
+    icon: Icon3,
+    iconName: 'piggy-bank-outline',
   },
 ];
 
@@ -53,7 +65,7 @@ export const discoveryItems = [
     description:
       "Pagamentos seguros, rápidos e sem tarifa. A experiência Nubank sem nem sair da conversa.",
     buttonText: "Quero Conhecer",
-    new:false
+    new: false
   },
   {
     id: 3,
@@ -61,7 +73,7 @@ export const discoveryItems = [
     description:
       "Guarde dinheiro por objetivos e veja ele render automaticamente de forma simples e organizada.",
     buttonText: "Criar Caixinha",
-    new:false
+    new: false
   }
 ];
 
@@ -74,6 +86,7 @@ export const services = [
     icon: Icon3,
     iconName: 'hand-coin',
     iconSize: 24,
+    hasDots: true,
   },
   {
     id: 2,
@@ -82,6 +95,7 @@ export const services = [
     icon: Icon4,
     iconName: 'signal',
     iconSize: 20,
+    hasDots: false,
   },
   {
     id: 3,
@@ -90,5 +104,6 @@ export const services = [
     icon: Icon4,
     iconName: 'heart-o',
     iconSize: 20,
+    hasDots: false,
   },
 ];

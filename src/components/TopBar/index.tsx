@@ -7,10 +7,10 @@ export const TopBar = () => {
     <View style={styles.container}>
       <Text style={styles.text}>9:22</Text>
       <View style={styles.iconsWrapper}>
-        <Icon name="signal-cellular-alt" size={24} color="white" />
+        <Icon name="signal-cellular-alt" size={20} color="white" />
 
 
-        <IconA name="battery-2" size={24} color="white" />
+        <IconA name="battery-2" size={20} color="white" />
 
       </View>
     </View>

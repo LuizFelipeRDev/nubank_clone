@@ -7,13 +7,9 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         flexDirection: 'row',
+        marginTop:12,
         paddingHorizontal: 30,
-        marginTop: 15,
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        zIndex: 99
+        paddingBottom: 12,
     },
     iconsWrapper: {
         display: 'flex',

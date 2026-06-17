@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
         gap:20
     },
     subTextBotton:{
-        color: COLORS.secudary,
+        color: COLORS.secondary,
         fontSize:10
     }
 

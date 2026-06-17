@@ -116,12 +116,30 @@ export const styles = StyleSheet.create({
     mappedOpt: {
         gap: 20
     },
+    newBadge: {
+        backgroundColor: COLORS.background,
+        alignSelf: 'flex-start',
+        padding: 8,
+        borderRadius: 8,
+    },
+    newBadgeText: {
+        fontSize: 10,
+        color: COLORS.primary
+    },
+    reviewContainer: {
+        flexDirection: "row",
+        gap: 16,
+        alignItems: 'center',
+        justifyContent: "center"
+    },
 
-
+    buttonPressed: {
+        backgroundColor: COLORS.quinary,
+    },
     blankSpace: {
         height: 50
     },
-    buttonPressed: {
-        backgroundColor: COLORS.quinary,
+    blankSpace2: {
+        height: 120
     },
 }) 
